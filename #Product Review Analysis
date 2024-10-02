@@ -1,0 +1,36 @@
+#Product Review Analysis
+#Task 1:Keyword Highlighter
+
+
+reviews = ["This product is really good. I'm impressed with its quality.", 
+    "The performance of this product is excellent. Highly recommended!", 
+    "I had a bad experience with this product. It didnt meet my expectation.",
+    "Poor quality product. Wouldn't recommend it to anyone.", 
+    "The product was average. Nothing extraordinary about it."]
+
+
+
+for review in reviews:
+    if "good" in review:
+        word = "good".upper()
+        print(review.replace("good", word))
+
+    if "excellent" in review:
+        word_2 = "excellent".upper()
+        print(review.replace("excellent", word_2))
+
+    if "bad" in review:
+        word_3 = "bad".upper()
+        print(review.replace("bad", word_3))
+
+    if "Poor" in review:
+        word_4 = "Poor".upper()
+        print(review.replace("Poor", word_4))
+
+    if "average" in review:
+        word_5 = "average".upper()
+        print(review.replace("average", word_5))
+
+
+
+
